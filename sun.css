@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* h1 {
+    font-size: 45px;
+}
+
+* .selected-text {
+    color: #c88c32;
+}
+
+* .select-blue {
+    color: #70cbff;
+}
+
+* .grey {
+    color: #929cb5;
+}
+
+* .select-white {
+    color: white;
+}
+
+* .select-dark-blue {
+    color: #405791;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar .nav-left ul,
+.navbar .nav-right ul {
+    list-style-type: none;
+}
+
+.navbar .nav-left {
+    width: 70%;
+}
+
+.navbar .nav-left ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .nav-right ul {
+    display: flex;
+    padding-left: 30px;
+}
+
+.navbar .nav-left ul li {
+    padding: 30px 20px;
+}
+
+.navbar .nav-right ul li {
+    padding: 35px 20px;
+}
+
+.navbar .nav-right button {
+    padding: 6px 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: #223668;
+    color: white;
+}
+
+/* Introduction */
+
+.intro {
+    color: aliceblue;
+    display: flex;
+    background-color: #223668;
+}
+
+.intro h1.welcome {
+    margin: 200px 250px;
+    margin-bottom: 0px;
+    padding: 0 30px;
+    border-left: 5px #c88c32 solid;
+    font-size: 80px;
+    color: #dec8a0;
+}
+
+.intro h1.sunstone {
+    margin-left: 250px;
+    margin-bottom: 0px;
+    padding: 0 30px;
+    font-size: 80px;
+    border-left: 5px #c88c32 solid;
+
+}
+
+.intro p {
+    padding: 0px 30px;
+    margin: 10px 250px;
+    margin-bottom: 250px;
+    color: #fbeeb8;
+}
+
+.intro img {
+    transform: scaleX(-1);
+}
+
+/* Floating information */
+
+.floating-info {
+    box-shadow: 0px 7px 20px 0px rgb(153, 190, 216);
+    background-color: #97a6cb;
+    margin: 20px;
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.floating-info ul {
+    height: 80px;
+    list-style: none;
+    display: flex;
+    margin: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-info ul li {
+    padding: 30px 50px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.floating-info ul li {
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-info ul li button {
+    padding: 10px;
+    border-radius: 7px;
+    height: 40px;
+    border: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: none;
+}
+
+.floating-info ul h3 {
+    color: #223668;
+}
+
+.floating-info ul img {
+    width: 25px;
+    padding: 10px;
+}
+
+/* info */
+
+.main {
+    background-image: linear-gradient(white, #f2e8d8);
+    padding-bottom: 30px;
+}
+
+.main .info2 .left img {
+    width: 70%;
+}
+
+.info {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    height: 60vh;
+    padding-top: 20px;
+}
+
+.info .info ul {
+    list-style: none;
+    padding-top: 120px;
+}
+
+.info ul li {
+    display: flex;
+    border: none;
+    background-color: #c88c32;
+    padding: 10px 30px;
+    margin: 15px;
+    width: 95%;
+    border-radius: 10px;
+    align-items: center;
+    color: azure;
+}
+
+.info ul li h1 {
+    padding: 7px;
+    font-size: 31px;
+}
+
+.info .right {
+    margin-top: 80px;
+}
+
+
+/* Programs offered */
+
+.progs {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.progs ul li.fir_li {
+    margin-left: 0;
+}
+
+.progs ul {
+    list-style: none;
+    display: flex;
+}
+
+.progs ul li {
+    padding: 10px 78px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 1px 12px 0 rgb(187, 187, 187);
+    margin: 20px;
+    font-weight: 600;
+    color: #c88c32;
+}
+
+.progs button {
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #223668;
+    color: white;
+    width: 20%;
+    font-size: 10;
+    height: 40px;
+    border: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: none;
+    font-weight: 500;
+}
+
+/* Recruiters */
+
+.recruiters {
+    padding: 60px 30px;
+    width: 75%;
+    margin: auto;
+}
+
+.recruiters .imgs1 {
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+}
+
+.recruiters img {
+    width: 150px;
+    padding: 20px;
+}
+
+/* Awards */
+
+.awards {
+    background-color: #f5f6fa;
+}
+
+.awards .data {
+    width: 75%;
+    margin: auto;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awards .data .right {
+    display: flex;
+    text-align: center;
+    padding-left: 240px;
+}
+
+.awards .data .pic {
+    background-color: white;
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.awards .data p {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Dream */
+
+.dream {
+    margin-top: 30px;
+    text-align: center;
+    height: 50vh;
+}
+
+.dream p.data {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* Dream -> info */
+
+.dream .wrap {
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    display: flex;
+}
+
+.info1, .info2, .info3 {
+    width: 33%;
+    margin-top: 30px;
+    padding-top: 0;
+}
+
+.dream .wrap p {
+    font-size: 12px;
+}
+
+.dream .wrap .info1,
+.info2, .info3 {
+    display: flex;
+}
+
+.dream .wrap .info1 .text,
+.info2 .text,
+.info3 .text {
+    margin: 30px 10px;
+}
+
+.wrap .info1 h1.one, h2.one {
+    color: #176b9b;
+}
+.wrap .info2 h1.two, h2.two {
+    color: #405791;
+}
+.wrap .info3 h1.three, h2.three {
+    color: #413271;
+}
+
+/* Infor */ 
+
+.infor {
+    background-image: linear-gradient(#06293e, #176b9b);
+    color: white;
+    padding: 80px 200px;
+    /* padding-top: 140px; */
+    display: flex;
+    height: 60vh;
+}
+
+.infor p {
+    color: #b4c7d3;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.infor .left {
+    width: 50%;
+    padding-top: 60px;
+}
+
+.infor .left h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.infor .left .inner {
+    display: flex;
+    margin-top: 50px;
+    line-height: 20px;
+}
+
+.infor .left .inner .right1{
+    padding-left: 70px;
+    margin-left: 70px;
+    border-left: 2px #2a698e solid;
+}
+
+.infor .right img{
+    width: 94%;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+/* Practice */
+
+.practice {
+    padding: 0px 200px;
+    margin-top: 40px;
+    background-color: #f5f6fa;
+    height: 70vh;
+}
+
+.practice .inner {
+    margin-top: 40px;
+    display: flex;
+    width: 95%;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.practice .inner .data1, .data2, .data3{
+    width: 430px;
+    height: 300px;
+    display: flex;
+    align-items: end;
+    background-size: 105%;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+
+.practice .inner .data1 h2, .data2 h2, .data3 h2 {
+    font-size: 22px;
+}
+
+.practice .inner .data1 p, .data2 p, .data3 p {
+    font-size: 13px;
+}
+
+.practice .inner .data1 {
+    background-image: url("practice1.png");
+    padding: 0;
+}
+
+.practice .inner .data2 {
+    background-image: url("practice2.png");
+    padding: 0;
+}
+
+.practice .inner .data3 {
+    background-image: url("practice3.png");
+    padding: 0;
+}
+
+.practice .inner .data1 h2, .data1 p,
+.data2 h2, .data2 p,
+.data3 h2, .data3 p{
+    background-color: white;
+    padding: 5px 35px;
+}
+
+.data3 h2, .data3 p {
+    padding-bottom: 25px;
+}
+
+.practice .inner .data1 h2{
+    font-size: 21px;
+}
+
+/* indus-partners */
+
+.indus-partners {
+    padding-top: 50px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    height: 82vh;
+    padding-bottom: 0;
+}
+
+.indus-partners .left {
+    width: 50%;
+    margin-right: 40px;
+}
+
+.indus-partners .right {
+    padding: 40px;
+    padding-left: 60px;
+}
+
+.indus-partners .left p {
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.indus-partners .right p{
+    padding-bottom: 30px;
+}
+
+/* Sunstone select */
+
+.select {
+    width: 75%;
+    margin: auto;
+    height: 30vh;
+}
+
+/* Explore */
+
+.explore {
+    padding: 2px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0077be;
+    height: 20vh;
+    margin-bottom: 100px;
+}
+
+.explore img {
+    width: 15%;
+}
+
+.explore .left {
+    width: 40%;
+}
+
+.explore .left h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.explore .right button {
+    padding: 10px 80px;
+    background-color: white;
+    color: #223668;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px 100px;
+    background-color: #151f38;
+    color: white;
+    display: flex;
+}
+
+footer .left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 240px;
+}
+
+footer .left img {
+    width: 5%;
+}
+
+
